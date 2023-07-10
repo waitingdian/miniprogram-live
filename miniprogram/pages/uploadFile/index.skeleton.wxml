@@ -1,0 +1,28 @@
+<!--
+此文件为开发者工具生成，生成时间: 2023/7/10 下午6:35:54
+使用方法：
+在 C:\Users\Administrator\WeChatProjects\miniprogram-2\miniprogram\pages\uploadFile\index.wxml 引入模板
+
+```
+<import src="index.skeleton.wxml"/>
+<template is="skeleton" wx-if="{{loading}}" />
+```
+
+在 C:\Users\Administrator\WeChatProjects\miniprogram-2\miniprogram\pages\uploadFile\index.wxss 中引入样式
+```
+@import "./index.skeleton.wxss";
+```
+
+更多详细信息可以参考文档：https://developers.weixin.qq.com/miniprogram/dev/devtools/skeleton.html
+-->
+<template name="skeleton">
+  <view class="sk-container">
+    <view>
+      <view class="top_tip sk-transparent sk-text-14-2857-836 sk-text">多存储类型，仅需一个云函数即可完成上传。</view>
+      <view class="box_text sk-transparent sk-text-14-2857-863 sk-text" style="background-position-x: 50%;">上传的图片将展示在这里</view>
+      <view class="button sk-transparent sk-text-26-4706-486 sk-text" style="background-position-x: 50%;">上传一张图片</view>
+      <view class="tip sk-transparent sk-text-14-2857-24 sk-text" style="background-position-x: 50%;">在“资源管理器&gt;miniprogram&gt;pages&gt;uploadFile&gt;index.js”找到相应代码，体验该能力</view>
+      <view is="components/cloudTipModal/index"></view>
+    </view>
+  </view>
+</template>

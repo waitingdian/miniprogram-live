@@ -1,0 +1,6 @@
+<!--index.wxml-->
+<view class="container">
+
+  <view class="title">开播</view>
+
+</view>

@@ -1,0 +1,6 @@
+<!--index.wxml-->
+<view class="container">
+
+  <view class="title" bindtap={createLiveRoom}>开播</view>
+
+</view>
